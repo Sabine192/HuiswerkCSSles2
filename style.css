@@ -1,0 +1,86 @@
+body {
+    background-color: #c7c6c6;
+    text-align: center;
+    padding: 5px
+}
+
+header {
+    background-color: #74706b;
+    color: #fff;
+    padding: 5px;
+}
+
+.p1 {
+    background-color: #d5dada;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: #74706b;
+    padding: 5px;
+}
+
+ul a {
+    color: white;
+    margin: 8px 5px 20px 6px
+
+}
+li {
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    background-color: rgb(85, 65, 34);
+    margin: 8px 5px 20px 6px;
+}
+
+li:hover {
+    background-color: rgb(100, 94, 58);
+}
+
+.center {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+td, th {
+    padding: 10px;
+    background-color: #d4d2d2;
+}
+
+input[type="text"], input[type="email"], textarea, select, button {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+#tekst {
+    background-color: #d5dada
+}    
+
+
+textarea {
+    height: 80px;
+    padding: 10px;
+}
+
+button:active {
+    background-color: rgb(5, 20, 68);color: white;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px rgb(48, 48, 160);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #535050;
+    color: #fff;
+    padding: 5px;
+}
